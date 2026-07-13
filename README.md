@@ -3,7 +3,7 @@
 Proyecto final de la materia **Electrónica Digital II**, desarrollado utilizando una placa **Blue Pill STM32F103C8T6** y un módulo **AD8232** para la adquisición de una señal de electrocardiograma (ECG).
 
 El objetivo del proyecto fue adquirir una señal analógica proveniente del sensor, procesarla mediante el ADC del microcontrolador y calcular la frecuencia cardíaca en tiempo real. Además, se incorporó una indicación visual mediante LEDs para representar distintos rangos de BPM.
-
+![Montaje del proyecto](Fotos-videos/Conexiones.jpeg)
 ## Autora
 
 **Fernández, Rocío Belén**
@@ -161,3 +161,14 @@ Por lo tanto, no debe utilizarse para diagnóstico ni monitoreo clínico. Su fin
 * Código de referencia de la cátedra de Electrónica Digital II.
 * Analog Devices - Datasheet AD8232.
 * STMicroelectronics - Reference Manual STM32F10xxx.
+
+## Demostración
+
+El funcionamiento del sistema puede verse en el archivo:
+
+[Ver video de funcionamiento](media/video_funcionamiento.mp4)
+
+## Aclaración
+
+Este repositorio corresponde a un trabajo académico realizado para la materia Electrónica Digital II.  
+El proyecto tiene fines educativos y no debe utilizarse como dispositivo médico.
